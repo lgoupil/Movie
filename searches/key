@@ -6,19 +6,39 @@ First letters: Database consulted
 Number following: index of the search
     PM_1 = 1st search on PubMed
 
-6 ending numbers: date of search
+6 follwing numbers: date of search
     PM_1_121023 = 1st PubMed search done on October 12th 2023
 
+(optional) last number:
+    Index of separated csv file (e.g. WoS cannot compile more than
+    1000 arrticles at a time so one might need multiple CSV files)
+
+
 -----------------------------------------------------------------
-Keywords used:
+Results and keyword used:
 PubMed
 - PM_1_121023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract])
+    - 159 results
 - PM_2_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract]) AND ("model"[All Fields] OR "modeled"[All Fields] OR "modeling"[All Fields] OR "modelings"[All Fields] OR "modelization"[All Fields] OR "modelizations"[All Fields] OR "modelize"[All Fields] OR "modelized"[All Fields] OR "modelled"[All Fields] OR "modelling"[All Fields] OR "modellings"[All Fields] OR "models"[All Fields])
+    - 52 results
 - PM_3_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract] OR "EEG"[Title/Abstract] OR "MRI"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "MEG"[Title/Abstract])
+    - 1698 results
 - PM_4_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract] OR "EEG"[Title/Abstract] OR "MRI"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "MEG"[Title/Abstract]) AND ("model"[All Fields] OR "modeled"[All Fields] OR "modeling"[All Fields] OR "modelings"[All Fields] OR "modelization"[All Fields] OR "modelizations"[All Fields] OR "modelize"[All Fields] OR "modelized"[All Fields] OR "modelled"[All Fields] OR "modelling"[All Fields] OR "modellings"[All Fields] OR "models"[All Fields])
+    - 303 results
 
 Scopus
 - S_1_121023: TITLE-ABS-KEY ( ( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" ) )
+    - 309 results
 - S_2_121023: TITLE-ABS-KEY ( ( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" ) AND ("model" OR "modeled" OR "modeling" OR "modelings" OR "modelization" OR "modelizations" OR "modelize" OR "modelized" OR "modelled" OR "modelling" OR "modellings" OR "models") )
+    - 100 results
 
 Web of Science
+- WoS_1_131023: TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" ))
+    - 312 results
+- WoS_2_131023: TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity") AND ("model" OR "modeled" OR "modeling" OR "modelings" OR "modelization" OR "modelizations" OR "modelize" OR "modelized" OR "modelled" OR "modelling" OR "modellings" OR "models" ))
+    - 88 results
+- WoS_3_131023_(1 to 5): TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" OR “MEG” OR “EEG” OR “fMRI” OR “MRI”))
+    - 4090 results
+- WoS_4_131023: TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity") AND (“MEG” OR “EEG” OR “fMRI” OR “MRI”))
+    - 112 results
+
