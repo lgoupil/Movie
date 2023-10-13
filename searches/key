@@ -1,0 +1,24 @@
+First letters: Database consulted
+    PM = PubMeed
+    S = Scopus
+    WoS = Web of Science
+
+Number following: index of the search
+    PM_1 = 1st search on PubMed
+
+6 ending numbers: date of search
+    PM_1_121023 = 1st PubMed search done on October 12th 2023
+
+-----------------------------------------------------------------
+Keywords used:
+PubMed
+- PM_1_121023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract])
+- PM_2_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract]) AND ("model"[All Fields] OR "modeled"[All Fields] OR "modeling"[All Fields] OR "modelings"[All Fields] OR "modelization"[All Fields] OR "modelizations"[All Fields] OR "modelize"[All Fields] OR "modelized"[All Fields] OR "modelled"[All Fields] OR "modelling"[All Fields] OR "modellings"[All Fields] OR "models"[All Fields])
+- PM_3_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract] OR "EEG"[Title/Abstract] OR "MRI"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "MEG"[Title/Abstract])
+- PM_4_131023: ("movie"[Title/Abstract] OR "film"[Title/Abstract] OR "motion pictures"[Title/Abstract]) AND ("brain imaging"[Title/Abstract] OR "neural activity"[Title/Abstract] OR "EEG"[Title/Abstract] OR "MRI"[Title/Abstract] OR "fMRI"[Title/Abstract] OR "MEG"[Title/Abstract]) AND ("model"[All Fields] OR "modeled"[All Fields] OR "modeling"[All Fields] OR "modelings"[All Fields] OR "modelization"[All Fields] OR "modelizations"[All Fields] OR "modelize"[All Fields] OR "modelized"[All Fields] OR "modelled"[All Fields] OR "modelling"[All Fields] OR "modellings"[All Fields] OR "models"[All Fields])
+
+Scopus
+- S_1_121023: TITLE-ABS-KEY ( ( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" ) )
+- S_2_121023: TITLE-ABS-KEY ( ( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity" ) AND ("model" OR "modeled" OR "modeling" OR "modelings" OR "modelization" OR "modelizations" OR "modelize" OR "modelized" OR "modelled" OR "modelling" OR "modellings" OR "models") )
+
+Web of Science
