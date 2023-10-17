@@ -43,3 +43,5 @@ Web of Science
     - 4090 results
 - WoS_4_131023: TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity") AND (“MEG” OR “EEG” OR “fMRI” OR “MRI”))
     - 112 results
+- WoS_5_171023: TS=(( "movie" OR "film" OR "motion pictures" ) AND ( "brain imaging" OR "neural activity") AND (“MEG” OR “EEG” OR “fMRI” OR “MRI”) AND ("model" OR "modeled" OR "modeling" OR "modelings" OR "modelization" OR "modelizations" OR "modelize" OR "modelized" OR "modelled" OR "modelling" OR "modellings" OR "models" ))
+    - 40 results
